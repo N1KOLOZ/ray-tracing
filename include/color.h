@@ -9,7 +9,7 @@ void write_color(std::ostream& os, color pixel_color, int samples_per_pixel) {
     double g = pixel_color.y();
     double b = pixel_color.z();
 
-    // Divide the color by the number of samples and gamma-correct for gamma=2.0.
+    // Divide the color by the number of samples and gamma-correct for gamma = 2.0.
     double scale = 1.0 / samples_per_pixel;
     r = sqrt(scale * r);
     g = sqrt(scale * g);

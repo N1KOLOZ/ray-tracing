@@ -60,7 +60,7 @@ public:
 using point3 = vec3; // 3D point
 using color = vec3; // RGB color
 
-// vec3 Utility Functions
+// vec3 utility functions
 inline std::ostream& operator<<(std::ostream& os, const vec3& rhs) {
     return os << rhs.e[0] << ' ' << rhs.e[1] << ' ' << rhs.e[2];
 }
