@@ -1,4 +1,4 @@
 # ray-tracing
 
 ## Image
-![GitHub Logo](/images/random_spheres.png)
+![GitHub Logo](/images/random_spheres.ppm)
